@@ -1,0 +1,68 @@
+html{
+    scrollbar-width: none;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    background-color:burlywood;
+    color: white;
+}
+main{
+    width: 100%;
+    min-height: 89vh;
+    background-color:cadetblue;
+    color: white;
+}
+.container_game{
+    height: fit-content;
+    width: 30rem;
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.blocco_game{
+    border-style: dashed;
+    width: calc(100%/10);
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.blocco_game_medium{
+    border-style: dashed;
+    width: calc(100%/9);
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blocco_game_hard{
+    border-style: dashed;
+    width: calc(100%/7);
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    background-color: gold;
+    color: black;
+}
+button{
+    color: white;
+}
+#easy{
+    background-color: green;
+}
+#medium{
+    background-color: rgb(222, 146, 92);
+}
+#hard{
+    background-color: red;
+}
+#gioca{
+    color: black;
+    
+}

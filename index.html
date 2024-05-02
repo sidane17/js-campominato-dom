@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stile.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    "
+    />
+    <title>js-campominato-grid</title>
+  </head>
+  <body class="container">
+    <header class="text-center mb-1"><h1>js-campominato-grid</h1></header>
+    <main
+      class="w-100 d-flex flex-column align-items-center justify-content-center"
+    >
+      <h2>Scegli la difficolta</h2>
+      <div class="d-flex mb-2">
+        <button class="rounded" id="easy">100</button>
+        <button class="rounded me-2 ms-2" id="medium">81</button>
+        <button class="rounded" id="hard">49</button>
+      </div>
+      <div class="f-flex">
+        <button class="rounded" id="gioca">Gioca</button>
+        <button class="rounded" id="gioca" onclick="window.location.reload();">
+          restart
+        </button>
+      </div>
+      <div class="container_game" id="container_game"></div>
+    </main>
+    <footer></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
