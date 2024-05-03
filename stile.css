@@ -20,6 +20,9 @@ main{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 2rem;
+    
+    
+    
 }
 .blocco_game{
     border-style: dashed;
@@ -47,11 +50,13 @@ main{
     align-items: center;
 }
 .background{
+    background-color: rgb(255, 0, 0);
     background-image: url(/bomba.png);
     background-position: center;
     background-size: cover;
     
-    color: black;
+    color:  rgb(255, 0, 0);
+    border-color: black;
 }
 .background_win{
     background-color: white;

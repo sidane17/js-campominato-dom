@@ -71,8 +71,8 @@ document.getElementById("gioca").onclick=function(){
             
             if(k.includes(z)==true){
                 console.log("click")
-            elemento.classList.toggle("background"); 
-            elemento.innerHTML="";
+            elemento.classList.add("background"); 
+            
             
             lose++;
             
@@ -81,7 +81,7 @@ document.getElementById("gioca").onclick=function(){
             }
             
             }else {
-                elemento.classList.toggle("background_win");
+                elemento.classList.add("background_win");
                 win++;
 
                 if(win==(num-16)){
