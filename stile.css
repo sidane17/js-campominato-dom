@@ -47,8 +47,14 @@ main{
     align-items: center;
 }
 .background{
-    background-color: gold;
+    background-image: url(/bomba.png);
+    background-position: center;
+    background-size: cover;
+    
     color: black;
+}
+.background_win{
+    background-color: white;
 }
 button{
     color: white;
